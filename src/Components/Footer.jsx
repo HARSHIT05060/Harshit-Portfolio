@@ -41,7 +41,7 @@ const Footer = ({ scrollToSection, scrollToTop }) => {
 
                         <div className="flex items-center gap-4 opacity-0 animate-fade-in" style={{ animationDelay: '5.8s' }}>
                             {socialLinks.map((social, index) => (
-                                <a key={index} href={social.link} className="rounded-2xl bg-white/10 border border-white/20 p-3 hover:bg-white/15 transition-colors">
+                                <a key={index} href={social.link} target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-white/10 border border-white/20 p-3 hover:bg-white/15 transition-colors">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-gray-300">
                                         <path d={social.path}></path>
                                     </svg>
@@ -72,6 +72,8 @@ const Footer = ({ scrollToSection, scrollToTop }) => {
                                             return (
                                                 <a
                                                     href="/HARSHIT_KAPADIA_RESUME_.pdf"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                     download="HARSHIT_KAPADIA_RESUME_.pdf"
                                                     className="hover:text-white transition-colors duration-200 text-sm font-medium text-gray-300 font-geist"
                                                 >

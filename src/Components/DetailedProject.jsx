@@ -103,14 +103,14 @@ const DetailedProject = () => {
                 'SEO-ready with metadata, sitemap, and OpenGraph',
                 'CMS-driven blog using MDX content'
             ],
-            tech: ['Next.js', 'Tailwind CSS', 'MDX'],
+            tech: ['React.js', 'Tailwind CSS'],
             year: '2025',
             status: 'Live',
             icon: User,
-            liveLink: 'https://harshit-kapadia.vercel.app/',
+            liveLink: 'https://harshit-kapadia-portfolio.vercel.app/',
             screen1: profile_img,
             screen2: about_img,
-            gitHub: 'https://github.com/HARSHIT05060/',
+            gitHub: 'https://github.com/HARSHIT05060/Harshit-Portfolio',
         }
     ];
 
