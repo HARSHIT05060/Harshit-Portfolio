@@ -1,7 +1,11 @@
 import React from 'react';
 import about_img from '../assets/about_img.png';
+import react_img from '../assets/react.jpg';
+import node_img from '../assets/node js.png';
+import mongodb_img from '../assets/MOngoDB.png';
+import express_img from '../assets/express js.png';
 
-const   About = ({ scrollToSection }) => {
+const About = ({ scrollToSection }) => {
     return (
         <section id="about" className="pt-24 pb-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -30,15 +34,18 @@ const   About = ({ scrollToSection }) => {
 
                             <div className="grid grid-cols-2 gap-6">
                                 {[
-                                    "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/7a1071f7-d844-49cd-a233-d698202b7f5c_3840w.jpg",
-                                    "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/1c97743a-4f4b-4ddd-a376-5517be1d46dd_3840w.jpg",
-                                    "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/72c8b3bf-292e-4424-b26d-4fcb776f58d6_800w.jpg",
-                                    "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/2b8b03a2-19b6-4f4d-a27f-4bd29d76f583_800w.jpg"
+                                    react_img,
+                                    node_img,
+                                    mongodb_img,
+                                    express_img
                                 ].map((src, index) => (
-                                    <div key={index} className="rounded-2xl bg-white/5 border border-white/10 p-3 shadow-lg hover:bg-white/10 transition-all duration-300 group cursor-pointer">
+                                    <div
+                                        key={index}
+                                        className="rounded-2xl bg-white/5 border border-white/10 p-3 shadow-lg hover:bg-white/10 transition-all duration-300 group cursor-pointer"
+                                    >
                                         <div className="overflow-hidden rounded-xl ring-1 ring-white/10">
                                             <img
-                                                alt="Creative workspace"
+                                                alt="Tech logo"
                                                 className="object-cover w-full h-28 lg:h-36 transition-transform duration-500 group-hover:scale-105"
                                                 src={src}
                                             />
