@@ -1,9 +1,9 @@
 import React from 'react';
 import about_img from '../assets/about_img.png';
-import react_img from '../assets/react.jpg';
-import node_img from '../assets/node js.png';
-import mongodb_img from '../assets/MOngoDB.png';
-import express_img from '../assets/express js.png';
+import react_img from '../assets/react_img.jpg';
+import node_img from '../assets/nodejs_img.png';
+import mongodb_img from '../assets/mongodb_img.png';
+import express_img from '../assets/expressjs_img.png';
 
 const About = ({ scrollToSection }) => {
     return (
